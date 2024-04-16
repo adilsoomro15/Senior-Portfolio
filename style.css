@@ -1,7 +1,12 @@
 .cinzel {
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", serif !important;
+    font-optical-sizing: auto!important;
+    font-weight: 400!important;
+    font-style: normal!important;
+}
+.playfair-display {
+    font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
 }
 
@@ -21,12 +26,15 @@
 
 .index-body {
     background-image:url('images/background.png');
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 .title {
-    font-size: 165px;
+    font-size: 205px;
+    padding-bottom: 45px;
+    padding-top: 50px;
 }
 
 
@@ -88,4 +96,18 @@
 .btn-one:hover::after {
     opacity: 0;
     transform: scale(0.1, 1);
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+
+.about-body {
+    background-image: url('images/black_abstract_flowers_art_4k_hd_black\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
