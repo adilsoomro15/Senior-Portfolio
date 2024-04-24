@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <h2>${section.title}</h2>
         <p>${section.description}</p>
         <div class="text-center cinzel">
-            <a href="${section.link}" class="btn btn-one text-white">
+            <a href="${section.link}" target="blank" class="btn btn-one btn-websites text-white">
                 <span>Visit Site</span>
             </a>
         </div>
