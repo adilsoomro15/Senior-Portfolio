@@ -179,3 +179,6 @@ a {
 .blurbackground:hover :not(img) {
     opacity: 1;
 }
+.navbar-nav .dropdown-menu {
+    background-color: rgb(29, 29, 29);
+}
