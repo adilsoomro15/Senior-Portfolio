@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 sectionRow.innerHTML = `
                 <div class="row">
                           <div class="col-md-4 align-self-center">
-        <img src="${section.image}" alt="Your Image" class="img-fluid">
+          <iframe src="${section.link}"></iframe>
     </div>
     <div class="col-md-8 text-center align-self-center">
         <h2>${section.title}</h2>
