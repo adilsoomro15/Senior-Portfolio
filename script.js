@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 sectionRow.innerHTML = `
                 <div class="row">
-    <div class="col-md-12 text-center align-self-center">
+    <div class="col-md-12 text-center">
         <h2>${section.title}</h2>
         <p>${section.description}</p>
         <div class="text-center cinzel">
